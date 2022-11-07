@@ -2,8 +2,8 @@
 # list1=["Phil", "Oz", "Seuss", "Dre"]
 
 list1=["Phil", "Oz", "Seuss", "Dre"]
-
+list2=[]
 for i in list1:
-    list1.append("Dr.")
+    list2.append("Dr. " + i)
 
-print (list1)
+print (list2)
